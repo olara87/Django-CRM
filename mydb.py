@@ -9,6 +9,6 @@ dataBase = mysql.connector.connect(
 
 cursorObject = dataBase.cursor()
 
-cursorObject.execute('CREATE DATABASE elderco CHARACTER SET utf8')
+cursorObject.execute('CREATE DATABASE myDB CHARACTER SET utf8')
 
 print('All done!')
